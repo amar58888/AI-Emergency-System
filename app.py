@@ -15,9 +15,9 @@ AUTH_TOKEN = "27c84e4cdb80df775c25b82c941c67e0"
 TWILIO_NUMBER = "+17655725543"
 TARGET_NUMBER = "+918848328933"
 
-EMAIL = st.secrets["ajuamarjyoth@gmail.com"]
-APP_PASSWORD = st.secrets["iuvayzkbgbvfnqml"]
-RECEIVER_EMAIL = st.secrets["24dtsa11@kristujayanti.com"]
+EMAIL = st.secrets["EMAIL"]
+APP_PASSWORD = st.secrets["APP_PASSWORD"]
+RECEIVER_EMAIL = st.secrets["RECEIVER_EMAIL"]
 
 # Firebase init
 if not firebase_admin._apps:
