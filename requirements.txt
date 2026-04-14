@@ -1,6 +1,6 @@
 streamlit
 speechrecognition
-opencv-python
+opencv-python-headless
 twilio
 firebase-admin
 geocoder
