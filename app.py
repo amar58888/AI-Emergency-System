@@ -10,10 +10,10 @@ from firebase_admin import credentials, firestore
 
 # ---------------- CONFIG ----------------
 
-ACCOUNT_SID = "AC8007b7f07904e1536bd4148e18076ebd"
-AUTH_TOKEN = "27c84e4cdb80df775c25b82c941c67e0"
-TWILIO_NUMBER = "+17655725543"
-TARGET_NUMBER = "+918848328933"
+ACCOUNT_SID = st.secrets["AC8007b7f07904e1536bd4148e18076ebd"]
+AUTH_TOKEN = st.secrets["27c84e4cdb80df775c25b82c941c67e0"]
+TWILIO_NUMBER = st.secrets["+17655725543"]
+TARGET_NUMBER = st.secrets["+918848328933"]
 
 EMAIL = st.secrets["EMAIL"]
 APP_PASSWORD = st.secrets["APP_PASSWORD"]
